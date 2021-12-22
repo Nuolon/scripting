@@ -12,32 +12,37 @@ subnet 10.15.1.0 netmask 255.255.255.0 {
 }
 
 subnet 10.0.0.0 netmask 255.255.255.224 {
-  range 10.0.0.3 10.0.0.15;
-  option routers 10.0.0.1;
+  range 10.0.0.11 10.0.0.31;
+  option routers 10.0.0.10;
+}
+
+subnet 10.0.0.32 netmask 255.255.255.224 {
+  range 10.0.0.43 10.0.0.63;
+  option routers 10.0.0.33;
 }
 
 subnet 172.16.4.0 netmask 255.255.252.0 {
-  range 172.16.4.50 172.16.7.254;
-  option routers 172.16.4.1;
+  range 172.16.5.5 172.16.7.254;
+  option routers 172.16.5.1;
 }
 
 subnet 172.16.8.0 netmask 255.255.252.0 {
-  range 172.16.8.50 172.16.11.254;
-  option routers 172.16.8.1;
+  range 172.16.9.5 172.16.11.254;
+  option routers 172.16.9.1;
 }
 
 subnet 172.16.12.0 netmask 255.255.252.0 {
-  range 172.16.12.50 172.16.15.254;
+  range 172.16.13.5 172.16.15.254;
   option routers 172.16.12.1;
 }
 
 subnet 172.16.16.0 netmask 255.255.252.0 {
-  range 172.16.16.50 172.16.19.254;
-  option routers 172.16.16.1;
+  range 172.16.17.5 172.16.19.254;
+  option routers 172.16.17.1;
 }
 
 subnet 192.168.0.0 netmask 255.255.255.0 {
-  range 192.168.0.50 192.168.0.254;
+  range 192.168.0.15 192.168.0.254;
   option routers 192.168.0.1;
 }
 EOT
