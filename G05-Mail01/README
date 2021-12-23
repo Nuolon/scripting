@@ -1,0 +1,9 @@
+Voor de installatie van de mailserver zijn alle bestanden nodig in deze repositorymap.
+
+De volgorde van het uitvoeren van de gehele uitrol van de server is als volgt:
+1. install_mail.sh
+2. install_mail_2.sh
+3. Webinterface configuration.png
+4. install_mail_3.sh
+
+Als er vragen zijn, neem dan contact op met m.van.der.wal@st.hanze.nl
