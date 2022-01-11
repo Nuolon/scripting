@@ -43,7 +43,11 @@ echo '@	IN	NS	g05-ns01.groep5.local.' >> /var/named/db.groep5.local
 echo '@	IN	A	10.15.1.14' >> /var/named/db.groep5.local
 echo 'g05-ns01	IN	A	10.15.1.20' >> /var/named/db.groep5.local
 echo 'g05-dc01	IN	A	10.15.1.14' >> /var/named/db.groep5.local
-echo 'moodle	IN	A	10.15.1.12' >> /var/named/db.groep5.local
+echo 'g05-qradar      IN      A       10.15.1.68' >> /var/named/db.groep5.local
+echo 'moodle	IN      A	      10.15.1.12' >> /var/named/db.groep5.local
+echo 'mail    IN      A       10.15.1.11' >> /var/named/db.groep5.local
+echo 'splunk  IN      A       10.15.1.18' >> /var/named/db.groep5.local
+echo 'kibana  IN      A       10.15.1.16' >> /var/named/db.groep5.local
 
 # Check if everything was configured correctly
 named-checkconf
